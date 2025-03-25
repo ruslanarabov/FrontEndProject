@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>PB503_Project</title>
 </head>
-<body style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+<body style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; background-color: #f9f9f9;">
     <header class="header">
         <div class="container">
             <nav class="nav">
@@ -67,11 +67,15 @@
             
                 <li class="dropdown">
                     <a href="#" class="nav-item">SHOP</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Shop Grid</a></li>
-                        <li><a href="#">Shop List</a></li>
-                        <li><a href="#">Product Details</a></li>
-                    </ul>
+                        <ul class="dropdown-menu">
+                            <h4 class="dropdown-menu-logo"><strong>SHOP LAYOUT</strong></h4>
+                            <li><a href="#">Shop Default</a></li>
+                            <li><a href="#">Shop Grid Fullwidth</a></li>
+                            <li><a href="#">Shop Right Sidebar</a></li>
+                            <li><a href="#">Shop List Fullwidth</a></li>
+                            <li><a href="#">Shop List Left Sidebar</a></li>
+                            <li><a href="#">Shop List Right Sidebar</a></li>
+                        </ul>
                 </li>
             
                 <li class="dropdown">
@@ -100,32 +104,124 @@
                 <a href="#" class="icon-link"><i class="fa fa-search"></i></a>
                 <a href="#" class="icon-link"><i class="fa-solid fa-circle-user"></i></a>
                 <a href="#" class="icon-link"><i class="fa fa-heart"></i></a>
-                <a href="#" class="icon-link"><i class="fa-solid fa-bag-shopping"></i></a>
-
+                <a href="#" class="icon-link">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-count">3</span>
+                </a>
             </div>
         </div>
     </section>
 
 
+    <section class="banner">
+        <div class="contact-banner">
+            <div class="contact-banner-text">
+                <h1 class="contact-banner-title">CONTACT</h1>
+                <a class="geri"  href="index.html">Home</a> 
+                <span class="geri1">Contact Us</span>
+            </div>
+        </div>
+    </section>
 
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
-    <h1>ad;,lef,</h1>
 
+    <section class="ftco-section">
+        <div class="container">
+            
+    
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="wrapper">
+                        <div class="row no-gutters">
+                            
+                            <!-- Contact Form -->
+                            <div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
+                                <div class="contact-wrap w-100 p-md-5 p-4">
+                                    
+    
+                                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    
+                                                    <input type="text" class="form-control" name="name" id="name" placeholder="FullName*">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" name="surname" id="surname" placeholder="Surname*">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="number" class="form-control" name="phone" id="phone" placeholder="Phone*">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    
+                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email*">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message*"></textarea>
+                                                </div>
+                                            </div>
+                                                <button class="btn">POST COMMENT</button>                                                                                                                                             
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+    
+                            <!-- Contact Info -->
+                            <div class="col-lg-4 col-md-5 d-flex align-items-stretch">
+                                <div class="info-wrap w-100 p-md-5 p-4">
+                                    <h1><strong>Contact Info:</strong></h1>
+                                    <p class="mb-4">We're open for any suggestion or just to have a chat</p>
+    
+                                    <div class="contact-info">
+                                        <div class="dbox d-flex align-items-start">
+                                            <div class="icon d-flex align-items-center justify-content-center">
+                                                <span class="fa fa-map-marker"></span>
+                                            </div>
+                                            <div class="text pl-3">
+                                                <p><span>Address:</span> 198 West 21th Street</p>
+                                            </div>
+                                        </div>
+                                        <div class="dbox d-flex align-items-center">
+                                            <div class="icon d-flex align-items-center justify-content-center">
+                                                <span class="fa fa-phone"></span>
+                                            </div>
+                                            <div class="text pl-3">
+                                                <p><span>Phone:</span> <a href="tel://1234567920">+ 123 456 789</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="dbox d-flex align-items-center">
+                                            <div class="icon d-flex align-items-center justify-content-center">
+                                                <span class="fa fa-paper-plane"></span>
+                                            </div>
+                                            <div class="text pl-3">
+                                                <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div> <!-- End Contact Info -->
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+   
+
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193596.2600277565!2d-74.14431311430006!3d40.69728463500457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2saz!4v1742918371763!5m2!1str!2saz" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
     
     <section>
         <footer class="footer pt-5">
