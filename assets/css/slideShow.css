@@ -1,0 +1,47 @@
+.slideshow-container {
+    overflow: hidden;
+    max-width: 100%;
+    height: 140px; 
+    padding: 90px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.slider-wrapper {
+    display: flex;
+    gap: 100px; 
+    animation: slideAnimation 14s linear infinite; 
+}
+
+.slide-item {
+    flex: 0 0 auto;
+    width: 90px;
+    height: auto;
+}
+
+.slide-item img {
+    width: 100%;
+    display: block;
+    height: 110px;
+}
+
+
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(140%); /* sagdan baslayir */
+    }
+    40% {
+        transform: translateX(0); /* ortada dayanir */
+    }
+    60% {
+        transform: translateX(0); /* ortada dayanma */
+    }
+    100% {
+        transform: translateX(-140%); /* soldan cixir */
+    }
+    
+}

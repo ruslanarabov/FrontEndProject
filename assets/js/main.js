@@ -14,7 +14,7 @@ let slideIndex = 0;
       dots[i].classList.remove("active");
     }
     dots[slideIndex - 1].classList.add("active");
-    setTimeout(showSlides, 4000); // 2 saniyədən bir dəyişir
+    setTimeout(showSlides, 4000); 
   }
 
   function currentSlide(n) {
