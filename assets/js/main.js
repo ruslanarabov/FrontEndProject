@@ -21,3 +21,4 @@ let slideIndex = 0;
     slideIndex = n - 1;
     showSlides();
   }
+
