@@ -22,3 +22,42 @@ let slideIndex = 0;
     showSlides();
   }
 
+
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const productImages = document.getElementById("productImages");
+
+    async function fetchData() {
+        try {
+            const response = await fetch("data.json");
+            const images = await response.json();
+            return images;
+        } catch (error) {
+            console.error("Error loading data.json", error);
+            return null;
+        }
+    }
+
+    async function updateImages(category) {
+        const images = await fetchData();
+        if (!images) return;
+        
+        productImages.innerHTML = "";
+        images[category].forEach(item => {
+            const img = document.createElement("img");
+            img.src = item.src;
+            img.alt = item.alt;
+            img.style.width = "150px"; 
+            img.style.margin = "10px";
+            productImages.appendChild(img);
+        });
+    }
+
+    document.querySelectorAll(".ourProBtn").forEach(button => {
+        button.addEventListener("click", function () {
+            const category = this.textContent.toLowerCase();
+            updateImages(category);
+        });
+    });
+});

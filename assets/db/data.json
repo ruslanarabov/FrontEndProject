@@ -1,71 +1,32 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Cactus Plant",
-        "price": 15.99,
-        "image": "https://example.com/cactus.jpg",
-        "category": "Succulent",
-        "description": "A beautiful cactus plant.",
-        "quantity": 20
-      },
-      {
-        "id": 2,
-        "name": "Fern Plant",
-        "price": 19.99,
-        "image": "https://example.com/fern.jpg",
-        "category": "Indoor",
-        "description": "A lush fern for indoors.",
-        "quantity": 15
-      },
-      {
-        "id": 3,
-        "name": "Aloe Vera",
-        "price": 12.49,
-        "image": "https://example.com/aloe.jpg",
-        "category": "Succulent",
-        "description": "Aloe vera plant with medicinal properties.",
-        "quantity": 30
-      },
-      {
-        "id": 4,
-        "name": "Snake Plant",
-        "price": 25.00,
-        "image": "https://example.com/snakeplant.jpg",
-        "category": "Indoor",
-        "description": "A hardy plant that is easy to care for.",
-        "quantity": 10
-      }
-    ],
-    "categories": [
-      {
-        "id": 1,
-        "name": "Succulent"
-      },
-      {
-        "id": 2,
-        "name": "Indoor"
-      },
-      {
-        "id": 3,
-        "name": "Outdoor"
-      }
-    ],
-    "users": [
-      {
-        "id": 1,
-        "name": "John Doe",
-        "email": "johndoe@example.com",
-        "password": "password123",
-        "role": "customer"
-      },
-      {
-        "id": 2,
-        "name": "Jane Smith",
-        "email": "janesmith@example.com",
-        "password": "securepass456",
-        "role": "admin"
-      }
-    ]
-  }
-  
+  "featured": [
+    {
+      "src": "https://htmldemo.net/pronia/pronia/assets/images/slider/inner-img/1-1-524x617.png",
+      "alt": "Bitki 1"
+    },
+    {
+      "src": "https://htmldemo.net/pronia/pronia/assets/images/slider/inner-img/1-2-524x617.png",
+      "alt": "Bitki 2"
+    }
+  ],
+  "bestSeller": [
+    {
+      "src": "https://htmldemo.net/pronia/pronia/assets/images/slider/inner-img/2-1-524x617.png",
+      "alt": "Bitki 3"
+    },
+    {
+      "src": "https://htmldemo.net/pronia/pronia/assets/images/slider/inner-img/2-2-524x617.png",
+      "alt": "Bitki 4"
+    }
+  ],
+  "latest": [
+    {
+      "src": "https://htmldemo.net/pronia/pronia/assets/images/slider/inner-img/3-1-524x617.png",
+      "alt": "Bitki 5"
+    },
+    {
+      "src": "https://htmldemo.net/pronia/pronia/assets/images/slider/inner-img/3-2-524x617.png",
+      "alt": "Bitki 6"
+    }
+  ]
+}
