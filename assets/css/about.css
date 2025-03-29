@@ -1,6 +1,6 @@
 /* about hagginda yazdigim css kodlari */
 .about-banner{
-    background: url("https://media.istockphoto.com/id/1330668657/vector/watercolor-vector-card-of-green-branches-and-leaves-isolated-on-a-white-background-flower.jpg?s=612x612&w=0&k=20&c=_6cBkCJh0Cl5SrZNVfzDCm7OVWveILlsVFjY9J-V430=") no-repeat center center/cover;
+    background: url("https://htmldemo.net/pronia/pronia/assets/images/breadcrumb/bg/1-1-1919x388.jpg") no-repeat center center/cover;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -144,8 +144,6 @@
     color: #a6ce70;
 }
 
-
-
 /* yazinin altindaki 4 dene kart kodlari */
 
 .plant-container {
@@ -180,6 +178,26 @@
     font-weight: 400;
     color: #333;
     text-align: center;
+}
+
+
+.our-banner-title::before,
+.our-banner-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 2px;
+    background-color: #a6ce70;
+    transform: translateY(-50%);
+}
+
+.our-banner-title::before {
+    left: -50px; 
+}
+
+.our-banner-title::after {
+    right: -50px; 
 }
 
 
