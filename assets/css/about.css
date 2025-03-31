@@ -181,26 +181,6 @@
 }
 
 
-.our-banner-title::before,
-.our-banner-title::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    width: 40px;
-    height: 2px;
-    background-color: #a6ce70;
-    transform: translateY(-50%);
-}
-
-.our-banner-title::before {
-    left: -50px; 
-}
-
-.our-banner-title::after {
-    right: -50px; 
-}
-
-
 /* 4 dene adam sekli ve ustdeki yazi */
 .four-people {
     padding: 80px;
