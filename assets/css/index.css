@@ -68,12 +68,6 @@
 }
 
 
-/* 
-/* .productImage:hover {
-    transition: background-color 0.3s;
-    background-color: #a00000;
-} */
-
 .rating{
     color: gold;
     font-size: 18px;
@@ -126,3 +120,92 @@
     opacity: 1;
 }
 
+
+.fourPlantPic {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    gap: 30px;
+}
+
+.plantHe{
+    font-size: 17px;
+    padding-top: 40px;
+    padding-left: 60px;
+    margin: 0;
+}
+
+.plants1 {
+    width: 690px;
+    height: 300;
+}
+
+.plants2{
+    width: 350px;
+    height: 300px;
+}
+
+
+.plantTit{
+    padding-left: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.shopbutton{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    left: 55px;
+    padding: 12px 25px;
+    background-color: #a6ce70;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.shopbutton:hover {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.plantTit2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+
+.shopbutton2{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    left: 106px;
+    padding: 12px 25px;
+    background-color: #a6ce70;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.shopbutton2:hover {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.plantHe2{
+    font-size: 17px;
+    padding-top: 60px;
+    margin: 0;
+    text-align: center;
+}
