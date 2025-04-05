@@ -420,3 +420,12 @@ swiper-slide span{
     margin-bottom: 40px;
     width: 700px;
 }
+
+
+.lastCarusel {
+    display: flex;
+    width: 1340px;
+    height: 420px;
+    margin-bottom: 100px;
+
+}
